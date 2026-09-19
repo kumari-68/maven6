@@ -29,7 +29,7 @@ pipeline
             steps
             {
                 git 'https://github.com/IntelliqDevops/FunctionalTesting.git'
-                sh 'java -jar /var/lib/jenkins/workspace/Declarativepipeline/testing.jar'
+                sh 'java -jar /var/lib/jenkins/workspace/MultiBranchPipeline_Loans/testing.jar'
             }
         }
         stage('Delivery')
